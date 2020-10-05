@@ -3,7 +3,7 @@ import UIKit
 func alternatingSort(a: [Int]) -> Bool {
     var b: [Int] = []
     var a = a
-    
+
     while a.count > 0 {
         b.append(a.removeFirst())
         b.append(a.removeLast())
