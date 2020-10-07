@@ -31,9 +31,12 @@ transformedArray
 let sum = [1, 2, 3, 4].reduce(0, {sum, number in sum + number})
 sum
 
+// even shorter
+let sum2 = [1, 2, 3, 4].reduce(0, +)
+sum2
+
 var sumElements = 0
 for number in [1, 2, 3, 4] {
     sumElements += number
 }
 sumElements
-
