@@ -18,7 +18,7 @@ func firstUniqChar(_ s: String) -> Int {
 firstUniqChar("leetcodel")
 
 
-// basic use of dictionaries
+// basic use of dictionaries.
 
 var myDict = ["Key": "Value",
               "Key2": "Value2",
